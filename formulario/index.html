@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Formulario JS</title>
+	<meta charset="utf-8">
+	<script src="java.js"></script>
+</head>
+<body>
+	<div class="cuerpo">
+	<h1>Indice corporal</h1>
+	<form action="" onsubmit="return Validar();">
+		<p>Usuario : <input type="text" name="Nombre" id="Nombre"></p>
+		<p>Peso    : <input type="number" name="peso" id="Peso" > Medido en KG.</p>
+		<p>Altura  : <input type="text" name="altura" id="Altura" > Medido en metros.</p>
+		<p>Correo : <input type="email" name="correo" id="Correo"></p><br>
+		<input type="submit" name="Enviar">
+	</form>
+	<hr>
+	<table> 
+		<tr>
+			<th colspan="2">Valores de lMC</th>
+		</tr>
+		<tr>
+			<td>Peso bajo :</td>
+			<td>Menos de 18.5</td>
+		</tr>
+		<tr>
+			<td>Peso normal :</td>
+			<td>Entre 18.5 y 24.9</td>
+		</tr>
+		<tr>
+			<td>Sobrepeso :</td>
+			<td>Entre 25 y 29.9</td>
+		</tr>
+		<tr>
+			<td>Obeso :</td>
+			<td>30 o más</td>
+		</tr>
+	</table>
+ </div>
+</body>
+</html>
